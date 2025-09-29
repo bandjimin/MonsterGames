@@ -1,17 +1,22 @@
-AUTHOR INFO
-Full name: Benjamin Kamden Chan
+# Scare Games
+
+## Overview
+Scare Games is a text-based program where monsters compete in a scare competition. The program reads monster data from a file and simulates the scare game according to given rules. It is designed as part of a programming assignment for **CPSC-350-03** and demonstrates object-oriented programming, file I/O, and simulation logic.
+
+## How to Run
+1. Compile the program:
+   ```sh
+   g++ -o monster.exe main.cpp Monster.cpp RunScareGame.cpp
+2. Run the program with the required input file and parameter:
+   ```sh
+   ./monster.exe monsters.txt double
+
+## Errors
+No known errors.
+
+## Author Information
+Full Name: Benjamin Kamden Chan
+
 Student ID: 2454913
-Chapman Email: benchan@chapman.edu 
-Course number and section: CPSC-350-03
-Assignment or exercise number: Programming Assignment 5 - Scare Games
 
-ERRORS 
-No known errors
-
-RUNNING INSTRUCTIONS
-g++ -o monster.exe  main.cpp Monster.cpp RunScareGame.cpp
- ./monster.exe monsters.txt double
-
-SOURCES
-I also used the following links as reference (also listed in the code file):
-    - ChatGPT for all of RunScareGame because I don't know how to use the sstream library plus I made the completion of this assignment run on a tight schedule so I didn't want to deal with it
+Email: benchan@chapman.edu
